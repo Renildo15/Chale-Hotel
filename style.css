@@ -10,7 +10,7 @@ body{
 }
 
 #container{
-    background: #ede9cc;
+    background: #ede9cc url(imagens/bg-container.png) top center repeat-y;
     margin: 0 auto;
     min-width: 740px;
     max-width: 1400px;
@@ -117,4 +117,29 @@ ul#navegacao a:hover{
     float: right;
     position: relative;
     left: -80px;
+}
+
+/*Area de conteudos*/
+#area-principal{
+    float: left;
+    width: 50%;
+    background: url(imagens/bg-area-principal.png) top left repeat-x;
+    padding: 15px 0;
+}
+
+#area-lateral{
+    float: right;
+    width: 50%;
+    background: url(imagens/bg-area-lateral.png) top left repeat-x;
+    padding: 20px 0;
+}
+
+.conteudo{
+    margin: 0 auto;
+    width: 90%;
+
+}
+
+#rodape{
+    clear: both;
 }
